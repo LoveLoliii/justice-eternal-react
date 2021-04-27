@@ -1,7 +1,7 @@
 import React from 'react';
 import { Router, Route, Switch } from 'dva/router';
 import IndexPage from './routes/IndexPage';
-import Threads from './components/routers/Threads';
+import Threads from './components/thread/Threads';
 
 function RouterConfig({ history }) {
   return (

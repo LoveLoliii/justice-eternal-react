@@ -1,0 +1,28 @@
+@font-face{
+	font-family:'FZCCHK';
+	src: url('../../../FZFONT/FZCCHK.TTF')
+}
+@font-face{
+	font-family:'FZFSK';
+	src: url('../../../FZFONT/FZFSK.TTF')
+}
+@font-face{
+	font-family:'FZHTK';
+	src: url('../../../FZFONT/FZHTK.TTF')
+}
+@font-face{
+	font-family:'FZKTK';
+	src: url('../../../FZFONT/FZKTK.TTF')
+}
+@font-face{
+	font-family:'FZLSK';
+	src: url('../../../FZFONT/FZLSK.TTF')
+}
+@font-face{
+	font-family:'FZSSK';
+	src: url('../../../FZFONT/FZSSK.TTF')
+}
+@font-face{
+	font-family:'FZXBSK';
+	src: url('../../../FZFONT/FZXBSK.TTF')
+}
