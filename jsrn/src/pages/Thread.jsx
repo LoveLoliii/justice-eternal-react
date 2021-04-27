@@ -8,6 +8,7 @@ function Thread() {
   const [count, setCount] = useState(0)
   useEffect(() => {
     console.log('生命周期')
+    console.info('in thread')
   }, []);
   const GetThreadList = () => {
     GetThreadList().then(e=>{

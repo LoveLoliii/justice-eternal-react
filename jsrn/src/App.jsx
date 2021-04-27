@@ -4,6 +4,7 @@ import './App.css'
 import { Button } from 'antd';
 import { Login } from './services/login'
 import { Link } from 'react-router-dom';
+import {BrowserRouter} from 'react-router-dom';
 import Thread from './pages/Thread'
 function App() {
   const [count, setCount] = useState(0)
@@ -15,10 +16,14 @@ function App() {
       console.log(e)
     })
   }
+ 
   return (
+  
     <div className="App">
-      
+        <BrowserRouter>
       <Link to="Thread">q1</Link> 
+       </BrowserRouter>
+      
       <Button type="primary" onClick={ () => login() }>login</Button>
       <Button onClick={()=>setCount(count+1)}>{count}</Button>
      
