@@ -1,4 +1,4 @@
 import axios from '../utils/axios'
-export const GetThreadList = async () => {
-    return axios.post('/getThreadList',{logname:'test',passwd:''})
+export const GetThreadList = async (data={}) => {
+    return axios.get('/getThreadList',data)
 } 
