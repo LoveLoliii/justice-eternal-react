@@ -1,7 +1,7 @@
 import axios from "axios";
 import { message } from 'antd';
 
-axios.defaults.baseURL = 'http://127.0.0.1:8080'  //正式
+axios.defaults.baseURL = 'https://api.loli.monster'  //正式
 // axios.defaults.baseURL = 'http://test' //测试
 
 //post请求头
