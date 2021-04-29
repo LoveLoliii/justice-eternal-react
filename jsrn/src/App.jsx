@@ -17,11 +17,11 @@ function App() {
 
         
         <Switch>
-          <Route path="/threadc" component={ThreadC}></Route>
-          <Route path="/post/:id/:title" component={Post}></Route>
+          <Route path="/je/threadc" component={ThreadC}></Route>
+          <Route path="/je/post/:id/:title" component={Post}></Route>
         </Switch>
-        <Link to="/threadc">Thread List</Link>
-        <Link to="/">❤ Index</Link>
+        <Link to="/je/threadc">Thread List</Link>
+        <Link to="/je/">❤ Index</Link>
 
     </BrowserRouter>
     </div>
