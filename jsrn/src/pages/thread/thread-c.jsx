@@ -39,8 +39,8 @@ const columns = [
        const title = record.title;
       return (
         <Space size="middle">
-            <Link to={'/post/'+id+'/'+title}>详情</Link>
-            <a href={'/post/'+id+'/'+title}>详情</a>
+            <Link to={'/je/post/'+id+'/'+title}>详情</Link>
+            <a href={'/je/post/'+id+'/'+title}>详情</a>
           </Space>
       ); 
     }
