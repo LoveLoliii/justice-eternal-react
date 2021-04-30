@@ -7,6 +7,7 @@ import Highlighter from 'react-highlight-words';
 import { SettingOutlined,AppstoreOutlined, MailOutlined } from '@ant-design/icons';
 import { Link } from 'react-router-dom'
 import './thread-c.css'
+import logo from '../../llf-logo.svg';
 //const { Column, ColumnGroup } = Table;
 const { Search } = Input;
 const { SubMenu } = Menu;
@@ -121,7 +122,7 @@ class ThreadC extends Component {
       <div className="Thread">
         <Row justify='center' align="middle" style={{ minHeight: '10vh', boxShadow: '0 2px 8px #f0f1f2' }}  >
           <Col span={4} align="middle">
-           <h1><a id="logo" href="/"><img height='64px' alt="logo" src="../../src/llf-logo.svg"/>Loli Monster</a></h1>
+           <h1><a id="logo" href="/"><img height='64px' alt="logo" src={logo}/>Loli Monster</a></h1>
         </Col>
           <Col span={18}>
             <Row>
