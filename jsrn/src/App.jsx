@@ -8,7 +8,7 @@ import Post from './pages/post/post'
 function App() {
   const [count, setCount] = useState(0)
   useEffect(() => {
-    console.log('生命周期')
+    //console.log('生命周期')
   }, []);
 
   return (
